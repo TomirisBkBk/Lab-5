@@ -1,0 +1,7 @@
+
+function getSecondLargest(nums) {
+    // Complete the function
+    const mySet = new Set(nums);
+    let resultSet = [...mySet].sort((a,b)=>b-a);
+    return (resultSet[1]);
+}

@@ -1,0 +1,10 @@
+
+function reverseString(s) {
+    try {
+        let rev = s.split('').reverse().join('');
+        console.log(rev);
+    }catch (error){
+        console.log(error.message);
+        console.log(s);
+    }    
+}
